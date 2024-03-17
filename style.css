@@ -1,0 +1,187 @@
+/* Modificando el estilo del cuerpo que contendrá todos los diseños */
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", "Young Serif";
+    margin-top: 70px;
+    margin-bottom: 70px
+    ;
+}
+
+main {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#div_imagen {
+    background-image: url("./assets/images/image-omelette.jpeg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* Dando estilo al título principal y al párrafo de introducción */
+
+#tituloPrincipal {
+    font-weight: 200;
+    font-size: 27px;
+    font-family: "Young Serif";
+    margin-bottom: 2px;
+}
+
+#parrafoIntroduccion {
+    font-family: "Outfit";
+    font-size: 10px;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 25px;
+}
+
+/* Dando estilo a la seccion Preparation time*/
+
+#seccionPreparacion{
+    background-color: hsl(330, 100%, 98%);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#listaPreparacion {
+    color: hsl(30, 10%, 34%);
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+#listaPreparacion li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparationClass {
+    padding-left: 14px;
+}
+
+#tituloPreparacion {
+    color: hsl(332, 51%, 32%);
+    margin-top: 7px;
+    margin-bottom: auto;
+}
+
+/* Dando estilo a la sección de ingredientes */
+
+.ingredientsClass {
+    padding-left: 14px;
+}
+
+#listaIngredientes {
+    color: hsl(30, 10%, 34%);
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+#listaIngredientes li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+#tituloIngredientes {
+    font-family: "Young Serif";
+    font-weight: 200;
+    color: hsl(14, 45%, 36%);
+}
+
+/* Este es un horizontal rule para separar la seccion de ingredientes con la seccion de instrucciones */
+#hr1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 0px;
+    color: hsl(30, 18%, 87%);
+}
+
+/* Dando estilo a la sección de instrucciones */
+
+#tituloInstrucciones {
+    font-family: "Young Serif";
+    font-weight: 200;
+    color: hsl(14, 45%, 36%);
+    margin-top: 0px;
+}
+
+#listaInstrucciones {
+    color: hsl(30, 10%, 34%);
+    font-size: 11px;
+}
+
+#listaInstrucciones li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ol > li {
+    padding-left: 14px;
+    line-height: 17px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+li > span {
+    font-weight: bold;
+}
+
+/* Este es un horizontal rule para separar la seccion de instrucciones con la sección de nutrición */
+#hr2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 0px;
+    color: hsl(30, 18%, 87%);
+}
+
+/* Dando estilo a la sección de nutrición */
+#tituloNutricion {
+    font-family: "Young Serif";
+    font-weight: 200;
+    color: hsl(14, 45%, 36%);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#introductionNutrition {
+    font-family: "Outfit", "Young Serif";
+    font-size: 11px;;
+    color: hsl(30, 10%, 34%);
+    margin-top: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit", "Young Serif";
+    font-size: 11px;
+    color: hsl(30, 10%, 34%);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-color: hsl(30, 18%, 87%);
+}
+
+
+.nutritionalValues {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
